@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://nnparptdroct"]
+
+[node name="menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Button" type="Button" parent="Panel/VBoxContainer"]
+layout_mode = 2
+text = "退出
+"
+
+[node name="TextEdit" type="TextEdit" parent="Panel/VBoxContainer"]
+custom_minimum_size = Vector2(120, 200)
+layout_mode = 2
+placeholder_text = "在这里写小作文……"
+wrap_mode = 1
+
+[node name="Button2" type="Button" parent="Panel/VBoxContainer"]
+layout_mode = 2
+text = "发送"

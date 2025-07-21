@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "全能桌面宠物", "全能桌面宠物.csproj", "{AFE71CEC-4BAB-4F0B-AB3F-F206EAB6636E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFE71CEC-4BAB-4F0B-AB3F-F206EAB6636E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE71CEC-4BAB-4F0B-AB3F-F206EAB6636E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE71CEC-4BAB-4F0B-AB3F-F206EAB6636E}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{AFE71CEC-4BAB-4F0B-AB3F-F206EAB6636E}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{AFE71CEC-4BAB-4F0B-AB3F-F206EAB6636E}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{AFE71CEC-4BAB-4F0B-AB3F-F206EAB6636E}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal

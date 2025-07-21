@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://bh6tj3etivbmw"]
+
+[ext_resource type="Script" uid="uid://dw5qgin3fmbxp" path="res://脚本/main.gd" id="1_kc7pc"]
+[ext_resource type="PackedScene" uid="uid://cggcwtpyq4rso" path="res://场景/pet.tscn" id="2_1npiw"]
+[ext_resource type="PackedScene" uid="uid://nnparptdroct" path="res://场景/menu.tscn" id="3_kc7pc"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_kc7pc")
+
+[node name="Pet" parent="." instance=ExtResource("2_1npiw")]
+position = Vector2(180, 192)
+
+[node name="menu" parent="." instance=ExtResource("3_kc7pc")]
+
+[connection signal="pressed" from="menu/Panel/VBoxContainer/Button" to="." method="_on_button_pressed"]
+[connection signal="text_changed" from="menu/Panel/VBoxContainer/TextEdit" to="." method="_on_text_edit_text_changed"]
+[connection signal="pressed" from="menu/Panel/VBoxContainer/Button2" to="." method="_on_button_2_pressed"]
+
+[editable path="menu"]
