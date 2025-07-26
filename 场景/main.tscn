@@ -12,8 +12,9 @@ position = Vector2(180, 192)
 
 [node name="menu" parent="." instance=ExtResource("3_kc7pc")]
 
-[connection signal="pressed" from="menu/Panel/VBoxContainer/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="menu/Panel/VBoxContainer/QuitButton" to="." method="_on_quit_button_pressed"]
+[connection signal="pressed" from="menu/Panel/VBoxContainer/ModelButton" to="." method="_on_model_button_pressed"]
 [connection signal="text_changed" from="menu/Panel/VBoxContainer/TextEdit" to="." method="_on_text_edit_text_changed"]
-[connection signal="pressed" from="menu/Panel/VBoxContainer/Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="menu/Panel/VBoxContainer/SendButton" to="." method="_on_send_button_pressed"]
 
 [editable path="menu"]

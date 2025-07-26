@@ -38,3 +38,8 @@ func _on_mouse_entered() -> void:
 
 func _on_mouse_exited() -> void:
 	name_label.visible = false
+
+func anime_play(name: String, dir: Vector2) -> void:
+	animated_sprite_2d.play(name)
+	if dir.x < 0: animated_sprite_2d.flip_h = true
+	else: animated_sprite_2d.flip_h = false

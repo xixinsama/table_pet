@@ -217,7 +217,7 @@ shape = SubResource("RectangleShape2D_3ua3i")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_ww5pp")
-animation = &"idle"
+animation = &"crouch"
 autoplay = "idle"
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
@@ -234,7 +234,7 @@ offset_top = -61.0
 offset_right = -148.0
 offset_bottom = -38.0
 grow_horizontal = 2
-text = "DINO"
+text = "奶龙"
 horizontal_alignment = 1
 autowrap_mode = 3
 

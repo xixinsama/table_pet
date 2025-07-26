@@ -16,17 +16,36 @@ layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="Button" type="Button" parent="Panel/VBoxContainer"]
+[node name="QuitButton" type="Button" parent="Panel/VBoxContainer"]
 layout_mode = 2
 text = "退出
 "
 
+[node name="ModelLoading" type="Label" parent="Panel/VBoxContainer"]
+visible = false
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+text = "加载模型中"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="ModelButton" type="Button" parent="Panel/VBoxContainer"]
+visible = false
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+autowrap_mode = 1
+
+[node name="ModelPopup" type="PopupMenu" parent="Panel/VBoxContainer"]
+auto_translate_mode = 1
+
 [node name="TextEdit" type="TextEdit" parent="Panel/VBoxContainer"]
+visible = false
 custom_minimum_size = Vector2(120, 200)
 layout_mode = 2
 placeholder_text = "在这里写小作文……"
 wrap_mode = 1
 
-[node name="Button2" type="Button" parent="Panel/VBoxContainer"]
+[node name="SendButton" type="Button" parent="Panel/VBoxContainer"]
+visible = false
 layout_mode = 2
 text = "发送"
